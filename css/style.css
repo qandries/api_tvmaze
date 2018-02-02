@@ -11,6 +11,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #b1d6ff;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
 nav ul {
     display: flex;
@@ -31,14 +33,16 @@ nav section {
 
 section[data-use="result"] {
     background-color: #b1d6ff;
-    width: 25vw;
+    width: 20vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: cursive;
-    color: #ff5b17;
+    color: black;
     line-height: 25px;
-    overflow-y: scroll;
+    box-shadow: 10px 0 0 0 rgba(0,0,0,0.1);
+    /*overflow-y: scroll;*/
 }
 
 section[data-use="result"] ul {
@@ -62,7 +66,7 @@ section[data-use="result"] ul li:hover {
 }
 
 section[data-use="detail"] {
-    width: 75vw;
+    width: 80vw;
     height: 100vh;
     padding: 0 0 0 10px;
 }
@@ -70,10 +74,39 @@ section[data-use="detail"] ul {
     list-style: none;
 }
 
-section[data-use="detail"] h1:first-letter{
-    text-transform: uppercase;
+section[data-use="detail"] ul li {
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
+    padding-left: 5%;
+}
 
+span {
+    padding-left: 2%;
+}
+
+.style {
+    display: flex;
+    align-items: baseline;
+}
+
+img {
+    top: 0;
+    width: 35vw;
+    max-height: 75vh;
+}
+
+section[data-use="detail"] button {
+    display: flex;
+    justify-content: right;
+}
+
+#detail {
+    display: flex;
 }
