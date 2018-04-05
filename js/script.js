@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('section button').on('click', function () {
         var contentName = document.querySelector('#TVShows').value;
-        var searchContent = 'http://api.tvmaze.com/search/shows?q=';
+        var searchContent = 'https://api.tvmaze.com/search/shows?q=';
         searchContent += contentName;
         var htmlRender = "";
         $.ajax({
@@ -16,7 +16,7 @@ $(document).ready(function () {
         });
         $('body').on('click', '[data-use="result"] li', function () {
             var name = $(this).data('url');
-            var show = "http://api.tvmaze.com/shows/";
+            var show = "https://api.tvmaze.com/shows/";
             show += name;
             $.ajax({
                 url: show
