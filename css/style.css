@@ -12,8 +12,9 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #b1d6ff;
-    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -23,13 +24,13 @@ nav ul {
 nav ul li {
     padding-right: 10%;
 }
+
 nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-nav section {
-}
+nav section {}
 
 section[data-use="result"] {
     background-color: #b1d6ff;
@@ -41,7 +42,7 @@ section[data-use="result"] {
     font-family: cursive;
     color: black;
     line-height: 25px;
-    box-shadow: 10px 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: 10px 0 0 0 rgba(0, 0, 0, 0.1);
     /*overflow-y: scroll;*/
 }
 
@@ -70,13 +71,12 @@ section[data-use="detail"] {
     height: 100vh;
     padding: 0 0 0 10px;
 }
+
 section[data-use="detail"] ul {
     list-style: none;
 }
 
-section[data-use="detail"] ul li {
-
-}
+section[data-use="detail"] ul li {}
 
 h2 {
     display: flex;
